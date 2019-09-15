@@ -1,0 +1,7 @@
+initdb -D D:\Softwares\pgsql\pgdata -U postgres -W -E UTF8 -A scram-sha-256
+
+pg_ctl.exe -D "d:\Softwares\pgsql\pgdata" start
+
+pg_ctl.exe -D "d:\Softwares\pgsql\pgdata" stop
+
+psql.exe --username=postgres
